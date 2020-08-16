@@ -68,7 +68,7 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking){
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        mapView.onSaveInstanceState(outState)
+        mapView?.onSaveInstanceState(outState)
     }
 
 }

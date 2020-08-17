@@ -28,6 +28,6 @@ class MainRepository @Inject constructor(
 
     fun getTotalCaloriesBurned() = runDao.getTotalCaloriesBurned()
 
-    fun getTotalTimeInMillis() = runDao.getAllRunsSortedByTimeinMillis()
+    fun getTotalTimeInMillis() = runDao.getTotalTimeInMillis()
 
 }
